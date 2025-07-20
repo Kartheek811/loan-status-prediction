@@ -41,32 +41,9 @@ loan-status-prediction/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ⚙️ How to Run the Project Locally
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/Kartheek811/loan-status-prediction.git
-cd loan-status-prediction
-2️⃣ Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Run the web app
-bash
-Copy
-Edit
-streamlit run app.py
-📈 Model Performance
-Accuracy: ~85%
-
-Algorithm: Linear SVM
 
 Preprocessing: Label encoding, handling missing values
 
@@ -74,25 +51,4 @@ Preprocessing: Label encoding, handling missing values
 Tungana Kartheek
 📧 kartheektungana@gmail.com
 📍 Srikakulam, Andhra Pradesh
-🔗 GitHub Profile
 
-🙌 Acknowledgment
-Dataset from: Kaggle - Loan Prediction Dataset
-
-yaml
-Copy
-Edit
-
----
-
-### ✅ What to Do Now
-
-1. Open `README.md` in your project folder.
-2. Replace all content with the version above.
-3. Save the file.
-4. Commit and push:
-
-```bash
-git add README.md
-git commit -m "Final update: Cleaned README with updated Streamlit link"
-git push origin main
