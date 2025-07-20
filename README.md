@@ -1,3 +1,10 @@
+
+<p align="center">
+  <img src="banner.png" alt="Loan Status Prediction Banner" />
+</p>
+
+
+
 # 🧠 Loan Status Prediction System
 
 This project predicts whether a loan will be approved based on applicant details using a Support Vector Machine (SVM) model. The goal is to automate loan decision-making with high accuracy.
