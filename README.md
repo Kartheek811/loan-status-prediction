@@ -67,3 +67,8 @@ Achieved ~85% accuracy using a linear SVM classifier after encoding categorical 
 Tungana Kartheek
 📧 kartheektungana@gmail.com
 📍 Srikakulam, Andhra Pradesh
+
+---
+## 🌐 Live Demo
+
+🔗 [Click here to try the Loan Status Prediction App](https://loan-status-prediction-system.streamlit.app)
