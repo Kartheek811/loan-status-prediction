@@ -1,30 +1,33 @@
 # 🧠 Loan Status Prediction System
 
-A machine learning project that predicts whether a loan application will be approved or not based on applicant data. The system uses a Support Vector Machine (SVM) model trained on a real-world dataset.
+This project predicts whether a loan will be approved based on applicant details using a Support Vector Machine (SVM) model. The goal is to automate loan decision-making with high accuracy.
+
+🔗 **Live App**: [Click here to try it out]👉(https://loan-status-prediction-system.streamlit.app/)
 
 ---
 
 ## 🚀 Features
 
-- Predicts loan approval using Support Vector Machine (SVM)
-- Over 85% accuracy on evaluation data
-- Simple and clean data preprocessing
-- Confusion matrix and accuracy display
+- Predicts loan approval using SVM
+- ~85% accuracy on test data
+- Clean data preprocessing pipeline
+- Confusion matrix and accuracy score output
+- Interactive UI using Streamlit
 
 ---
 
 ## 📌 Problem Statement
 
-Financial institutions receive many loan applications daily. Manual verification is time-consuming and prone to human error. This ML-based system helps automate loan approval decisions based on applicant information.
+Manual review of loan applications is slow and prone to human error. This ML-based system helps financial institutions automate decisions efficiently by predicting outcomes based on applicant data.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - **Language**: Python  
 - **Libraries**: Pandas, NumPy, Scikit-learn  
 - **Model**: Support Vector Machine (SVM)  
-- **Environment**: Jupyter Notebook or Python script
+- **Web Interface**: Streamlit
 
 ---
 
@@ -33,37 +36,37 @@ Financial institutions receive many loan applications daily. Manual verification
 loan-status-prediction/
 ├── data/
 │ └── train.csv # Dataset file
-├── loan_prediction.py # Main ML code
-├── requirements.txt # Required Python packages
+├── loan_prediction.py # Model training and evaluation
+├── app.py # Streamlit web application
+├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
-yaml
-Copy
-Edit
 
 ---
 
-## ⚙️ How to Run the Project
+## ⚙️ How to Run the Project Locally
 
-1. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-Run the Python script:
+### 1️⃣ Clone the repository
 
-bash
-Copy
-Edit
-python loan_prediction.py
-Expected Output:
+git clone https://github.com/Kartheek811/loan-status-prediction.git
+cd loan-status-prediction
 
-Accuracy Score (e.g., 85%)
+2️⃣ Install dependencies
 
-Confusion Matrix
+pip install -r requirements.txt
 
-📈 Accuracy
-Achieved ~85% accuracy using a linear SVM classifier after encoding categorical features and removing missing values.
+3️⃣ Run the web app
+
+streamlit run app.py
+
+📈 Model Performance
+Accuracy: ~85%
+
+Algorithm: Linear SVM
+
+Preprocessing: Label encoding, handling missing values
 
 👨‍💻 Author
 Tungana Kartheek
 📧 kartheektungana@gmail.com
 📍 Srikakulam, Andhra Pradesh
+🔗 https://github.com/Kartheek811
